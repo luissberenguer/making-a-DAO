@@ -136,4 +136,7 @@ dist
 cache
 artifacts
 
+# Types
+typechain-types/
+
 # End of https://www.toptal.com/developers/gitignore/api/solidity
