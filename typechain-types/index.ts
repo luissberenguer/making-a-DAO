@@ -16,10 +16,14 @@ export type { GovernorCountingSimple } from "./@openzeppelin/contracts/governanc
 export { GovernorCountingSimple__factory } from "./factories/@openzeppelin/contracts/governance/extensions/GovernorCountingSimple__factory";
 export type { GovernorSettings } from "./@openzeppelin/contracts/governance/extensions/GovernorSettings";
 export { GovernorSettings__factory } from "./factories/@openzeppelin/contracts/governance/extensions/GovernorSettings__factory";
+export type { GovernorTimelockControl } from "./@openzeppelin/contracts/governance/extensions/GovernorTimelockControl";
+export { GovernorTimelockControl__factory } from "./factories/@openzeppelin/contracts/governance/extensions/GovernorTimelockControl__factory";
 export type { GovernorVotes } from "./@openzeppelin/contracts/governance/extensions/GovernorVotes";
 export { GovernorVotes__factory } from "./factories/@openzeppelin/contracts/governance/extensions/GovernorVotes__factory";
 export type { GovernorVotesQuorumFraction } from "./@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction";
 export { GovernorVotesQuorumFraction__factory } from "./factories/@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction__factory";
+export type { IGovernorTimelock } from "./@openzeppelin/contracts/governance/extensions/IGovernorTimelock";
+export { IGovernorTimelock__factory } from "./factories/@openzeppelin/contracts/governance/extensions/IGovernorTimelock__factory";
 export type { Governor } from "./@openzeppelin/contracts/governance/Governor";
 export { Governor__factory } from "./factories/@openzeppelin/contracts/governance/Governor__factory";
 export type { IGovernor } from "./@openzeppelin/contracts/governance/IGovernor";
@@ -52,8 +56,10 @@ export type { DoubleEndedQueue } from "./@openzeppelin/contracts/utils/structs/D
 export { DoubleEndedQueue__factory } from "./factories/@openzeppelin/contracts/utils/structs/DoubleEndedQueue__factory";
 export type { Box } from "./contracts/Box";
 export { Box__factory } from "./factories/contracts/Box__factory";
-export type { GovernorContract } from "./contracts/governance_standard/GovernorContract";
-export { GovernorContract__factory } from "./factories/contracts/governance_standard/GovernorContract__factory";
+export type { GovernorContract } from "./contracts/governance_standard/GovernorContract.sol/GovernorContract";
+export { GovernorContract__factory } from "./factories/contracts/governance_standard/GovernorContract.sol/GovernorContract__factory";
+export type { MyGovernor } from "./contracts/governance_standard/GovernorContract.sol/MyGovernor";
+export { MyGovernor__factory } from "./factories/contracts/governance_standard/GovernorContract.sol/MyGovernor__factory";
 export type { Timelock } from "./contracts/governance_standard/TimeLock.sol/Timelock";
 export { Timelock__factory } from "./factories/contracts/governance_standard/TimeLock.sol/Timelock__factory";
 export type { GovernanceToken } from "./contracts/GovernanceToken";
